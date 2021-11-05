@@ -1,0 +1,198 @@
+#title{
+
+  background-color:#ff4c68;
+  color: #fff;
+
+}
+body{
+    font-family: "Montserrat";
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.h1,h1{
+  font-family: "Montserrat-Black 900";
+  font-size:3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+
+}
+#h2test,h2{
+  font-family:inherit;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/*Navbar*/
+.navbar-brand{
+  font-family: "Ubuntu";
+  color: #fff;
+   font-size: 2.5rem;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+/*Download Button*/
+.download-button{
+  margin: 5% 3% 5% 0%;
+}
+/*Title Image*/
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+/*Features*/
+#features{
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.row{
+  margin: 0;
+}
+ .features-i{
+
+  color: #ef8172;
+}
+.features-i:hover {
+  color: #ff4c68;
+}
+.features h3{
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.features p{
+  color: #8f8f8f;
+}
+/*Testimonials*/
+#testimonials{
+  padding: 7% 15%;
+  text-align:center;
+  background-color:#ef8172;
+  color: #ffff;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+/*testimonials-image*/
+.testimonials-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color:#ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+/*press-logo*/
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+
+}
+/*Pricing Section*/
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+/*cta section*/
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+}
+#cta h3{
+  font-family:inherit;
+  font-size:3.5rem;
+  line-height: 1.5;
+   font-weight:900;
+   color: white;
+   padding: 7% 15%;
+}
+#footer p{
+    color: #8f8f8f;
+}
+/* footer section*/
+#footer{
+  text-align: center;
+}
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Dropdown Button */
+.dropbtn {
+
+padding: 0.6rem;
+  background-color: transparent;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  background-color: transparent;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+#myDropdown{
+  background-color: transparent;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: Black;
+opacity: .5}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+.card-header img{
+  width: -webkit-fill-available;
+  height: 254px;
+}
+#Product{
+  background-image: url("../images/furniture.jpg");
+  background-size: cover;
+  text-align: center;
+}
+#features{
+  background-image: url("../images/furniture2.jpg");
+  background-size: cover;
+}
